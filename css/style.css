@@ -426,7 +426,28 @@ a.readmore_bt {
 .text_align_center {
      text-align: center;
 }
+/* extra css */
 
+#contact-wsp-bubble {
+     width: 75px;
+     height: 70px;
+     background-color: transparent;
+     position: fixed ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 100%;
+     right: 20px;
+     cursor: pointer;
+     z-index: 10000;
+     bottom: 20px;
+     box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+ }
+ #contact-wsp-bubble img{
+     object-fit: contain;
+     width: 75px;
+     height: 80px;
+ }
 
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
 
@@ -450,6 +471,9 @@ a.readmore_bt {
 .logo {
      float: left;
      position: relative;
+     width: 220px;
+     bottom: 60px;
+     /* right: 90px; */
 }
 
 nav.main-menu {
@@ -707,6 +731,10 @@ ul.top_icon li a {
 
 .right-dropdown-currency .dropdown-link li a span.symbol {
      margin-right: 7px;
+}
+
+.form-control-row {
+     left: 370px;
 }
 
 #login-modal .modal-content {
@@ -1572,6 +1600,7 @@ input[type="radio"] .styled:checked+label::after {
 .carousel-indicators li {
      display: none;
 }
+/* Imagen de fondo primera seccion */
 .banner-main {
      position: relative;
      background: url(../images/banner.jpg);
@@ -1617,12 +1646,13 @@ input[type="radio"] .styled:checked+label::after {
      padding: 90px 0px;
 }
 .titlepage {
-     text-align: center;
+     text-align: left;
      padding-bottom: 50px;
 }
 .titlepage h2 {
      padding: 0px 0px 36px 0px;
      font-size: 50px;
+     text-align: center;
      font-weight: bold;
      color: #050303;
      line-height: 50px;
@@ -1632,8 +1662,8 @@ input[type="radio"] .styled:checked+label::after {
 .titlepage h2::after {
      content: "";
      position: absolute;
-     left: 0;
-     right: 0;
+     left: 0 !important;
+     right: 0 !important;
      top: 70%;
      margin: 10px auto;
      width: 50%;
