@@ -733,8 +733,11 @@ ul.top_icon li a {
      margin-right: 7px;
 }
 
-.form-control-row {
-     left: 370px;
+.form-control-row-style {
+     left: 370px !important;
+}
+.titlepage-about-us {
+     text-align: center;
 }
 
 #login-modal .modal-content {

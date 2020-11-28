@@ -114,8 +114,8 @@
         left: 20px;
         position: absolute;
     }
-    .form-control-row {
-        left: "";
+    .form-control-row-style{
+        left: 0 !important;
    }
    .titlepage-about-us {
     text-align: center;
